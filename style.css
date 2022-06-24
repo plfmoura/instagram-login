@@ -201,12 +201,22 @@ li a{
     }
 }
 
+@media(max-width: 900px){
+    .atalhos{
+        display: none;
+    }
+
+    .assinatura{
+        padding-top: 80px;
+    }
+}
+
 @media(max-width: 650px){
     .instagram-wrapper{
         width: 90%;
     }
 
-    .instagram-phone{
+    .instagram-phone, .atalhos, .copyright{
         display: none;
     }
 
