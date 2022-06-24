@@ -7,7 +7,7 @@
     font-size: 14px;
 }
 
-body{
+.conteudo{
     width: 100%;
     min-height: 100vh;
     background-color: #fafafa;
@@ -94,7 +94,6 @@ body{
 
 .not-account{
     color: rgb(73, 70, 70);
-    
     margin: 15px auto;
 }
 
@@ -134,6 +133,65 @@ body{
     background-image: url(img/googleplay-button.png);
 }
 
+footer{
+    background-color: #fafafa;
+}
+
+.atalhos{
+    padding-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.palavras-chave{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.palavras-chave li{
+    text-decoration: none;
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+li a{
+    color: rgb(116, 114, 114);
+    font-size: 0.7em;
+}
+
+.atalhos{
+    justify-content: space-around;
+    padding-bottom: 25px;
+    background-color: #fafafa;
+}
+
+.assinatura{
+    display: flex;
+    align-items: space-between;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+.assinatura p{
+    color: rgb(116, 114, 114);
+    font-size: 0.8rem;
+    margin-inline: 5px;
+}
+
+.copyright{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.copyright{
+    background-color: #cfcece;
+    padding: 1rem 0 2rem 0;
+    color: #ffffff;
+}
 
 /* media queries */ 
 
