@@ -138,34 +138,32 @@ footer{
 }
 
 .atalhos{
-    padding-top: 5%;
+    background-color: #fafafa;
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
+    justify-content: left;
+    max-width: 100%;
+    height: 20px;
+    margin: 0 11% 0 11%; 
+    padding-top: 25px;
+    padding-bottom: 65px;
 }
 
 .palavras-chave{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .palavras-chave li{
     text-decoration: none;
     list-style-type: none;
-    margin-left: 10px;
+    margin: 8px;
+    height: 10px;
 }
 
 li a{
-    color: rgb(116, 114, 114);
-    font-size: 0.7em;
-}
-
-.atalhos{
-    justify-content: space-around;
-    padding-bottom: 25px;
-    background-color: #fafafa;
+    color: rgb(155, 154, 154);
+    font-size: 12px;
 }
 
 .assinatura{
@@ -176,8 +174,8 @@ li a{
 }
 
 .assinatura p{
-    color: rgb(116, 114, 114);
-    font-size: 0.8rem;
+    color: rgb(155, 154, 154);
+    font-size: 12px;
     margin-inline: 5px;
 }
 
@@ -188,9 +186,8 @@ li a{
 }
 
 .copyright{
-    background-color: #cfcece;
     padding: 1rem 0 2rem 0;
-    color: #ffffff;
+    color: #b3b3b3;
 }
 
 /* media queries */ 
